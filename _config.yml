@@ -1,6 +1,6 @@
 # Deployment
-host: 0.0.0.0
-port: 4000
+#host: 0.0.0.0
+#port: 4000
 
 # Site settings
 title: OTRS 企业支持服务 - 舜迎(Znuny)信息
@@ -8,7 +8,7 @@ description: >
   OTRS的名字是由Open-source Ticket Request System首字母缩略字而来，
   是一个开放式的的项目，提交服务请求，问题管理等功能，集成非常多的功能用来管理用户通过邮件或电话呼叫。
 baseurl: ""
-url: "https://otrs.cn/"
+#url: "https://otrs.cn/"
 github_username: otrscn
 twitter_username: znuny
 
