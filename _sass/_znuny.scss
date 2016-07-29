@@ -1,0 +1,59 @@
+/**
+ * Linux Foundation Collaborative Projects
+ */
+
+
+// Footer
+.page-collab-footer {
+  background: url(../images/znuny-collab-bg.png);
+  border-top: 1px solid #e8e8e8;
+  color: #ffffff;
+  font-size: 11px;
+  line-height: 16px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  margin-bottom: 0px;
+
+  p {
+    margin-bottom: 5px;
+  }
+
+  * {
+    &:last-child {
+      margin-bottom: 0; // Remove bottom margin from last element
+    }
+  }
+}
+
+.address {
+    display: block;
+    font-style: normal;
+    line-height: 20px;
+    color: #767676;
+    font-size: 12px;
+}
+
+.last-footer {
+  font-size: 11px;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 0px;
+  padding-left: 30px;
+
+  a {
+  color: #ffffff;
+  }
+}
+
+// Mobile nav styles
+@include media-query($on-palm) {
+    .last-footer {
+        font-size: 11px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-right: 0px;
+        padding-left: 30px;
+        width: auto;
+    }
+}
