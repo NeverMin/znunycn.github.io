@@ -15,9 +15,9 @@ top_graphic: 2
             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
           </h2>
           {{ post.excerpt }}
-          <p><a href="{{ post.url | prepend: site.baseurl }}">Read more</a></p>
+          <p><a href="{{ post.url | prepend: site.baseurl }}">阅读...</a></p>
         </li>
       {% endfor %}
     </ul>
-  <p class="rss-subscribe"><a href="{{ "/feed.xml" | prepend: site.baseurl }}">订阅</a>我们的更新</p>
+  <p class="rss-subscribe"><a href="{{ "/feed.xml" | prepend: site.baseurl }}">订阅</a></p>
 </div>
