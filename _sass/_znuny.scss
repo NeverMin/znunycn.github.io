@@ -1,5 +1,5 @@
 /**
- * Linux Foundation Collaborative Projects
+ * Znuny website Projects
  */
 
 
@@ -56,4 +56,315 @@
         padding-left: 30px;
         width: auto;
     }
+}
+
+// Znuny
+
+/* -------------------------------------------------- */
+/*	Pricing Tables
+/* -------------------------------------------------- */
+
+.simple-pricing-table, .extended-pricing-table {
+	height: 100%;
+	margin: 0 0 40px;
+	position: relative;
+	text-align: center;
+	width: 100%;
+}
+
+.simple-pricing-table .column, .extended-pricing-table .column {
+	float: left;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+.simple-pricing-table .features, .extended-pricing-table .features {
+	list-style: none;
+	margin: 0;
+}
+
+.simple-pricing-table .features li, .extended-pricing-table .features li {
+	display: block;
+	margin: 0;
+	position: relative
+}
+
+.simple-pricing-table .pricing_footer, .extended-pricing-table .pricing_footer { padding: 16px 20px; }
+
+.simple-pricing-table .footer .button, .extended-pricing-table .footer .button {
+	background: #515151;
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: uppercase;
+	padding: 9px 20px;
+}
+
+
+.extended-pricing-table.featured { margin-top: 20px; }
+.extended-pricing-table .column { width: 740px; }
+.extended-pricing-table .features-list {
+  text-align: left;
+  width: 200px !important;
+}
+
+.extended-pricing-table.col2 .column { width: 370px; }
+.extended-pricing-table.col3 .column { width: 246px; }
+.extended-pricing-table.col4 .column { width: 185px; }
+.extended-pricing-table.col5 .column { width: 148px; }
+
+.extended-pricing-table .featured {
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, .15);
+     -moz-box-shadow: 0 0 20px rgba(0, 0, 0, .15);
+          box-shadow: 0 0 20px rgba(0, 0, 0, .15);
+             z-index: 1;
+}
+
+.extended-pricing-table .header {
+  background: #3a3a3a;
+  color: #fff;
+  min-height: 113px;
+}
+
+.extended-pricing-table .features-list .header { background: none; }
+.extended-pricing-table .free .header { background: #4a993e; }
+
+.extended-pricing-table .featured .header {
+  background: #f9612a;
+  padding: 0 0 10px;
+}
+
+.ie7 .extended-pricing-table .featured .header { padding-bottom: 0; }
+
+.extended-pricing-table .title {
+  background: #2c2c2c;
+  color: #bbbbbb;
+  font-size: 13px;
+  font-weight: 400;
+  margin: 0 0 7px;
+  padding: 8px 15px;
+  text-transform: uppercase;
+}
+
+.extended-pricing-table .free .title {
+  background: #428937;
+  color: #fff;
+}
+
+.extended-pricing-table .featured .title {
+  background: #dd4913;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 600;
+  margin-top: -10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  position: relative;
+}
+
+.extended-pricing-table .price {
+  color: #999;
+  font-size: $base-font-size;
+ font-weight: 400;
+  margin: 0;
+}
+
+.extended-pricing-table .free .price { color: #9fcd98; }
+
+.extended-pricing-table .featured .price { color: #fab197; }
+
+.extended-pricing-table .price span {
+  color: #fff;
+  font-size: 26px;
+  display: block;
+}
+
+.extended-pricing-table .featured .price span { font-weight: 600; }
+.extended-pricing-table .features { border-left: 1px solid #fff; }
+.extended-pricing-table .features-list .features { border-left: none; }
+
+.extended-pricing-table .features li {
+    background: #f8f8f8;
+    border-bottom: 1px solid #fff;
+    padding: 6px 10px;
+}
+
+.extended-pricing-table .features li:before { content: ''; }
+
+.extended-pricing-table .featured .features li { background: #fff; }
+
+.extended-pricing-table .features li:first-child { border-top: 1px solid #fff; }
+
+.extended-pricing-table .features li:nth-child(even) { background: #f0f0f0; }
+
+.extended-pricing-table .featured .features li:nth-child(even) { background: #f6f6f6; }
+
+.extended-pricing-table .features li .check {
+  background: url(/images/icon-check-3.png) no-repeat center 2px;
+  display: inline-block;
+  height: 18px;
+  text-indent: -9999px;
+  width: 18px;
+}
+
+.ie7 .extended-pricing-table .features li .check {
+  display: inline;
+  font-size: 0;
+  text-indent: 0;
+}
+
+
+
+/* Clearfix */
+.clear{clear:both;display:block;height:0;overflow:hidden;visibility:hidden;width:0}.clearfix:after{clear:both;content:' ';display:block;font-size:0;height:0;line-height:0;visibility:hidden;width:0}* html .clearfix,:first-child+html .clearfix{zoom:1}
+
+.button {
+  padding-top: 12px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+  color: white;
+}
+
+.button a {
+  font-size: $base-font-size;
+}
+
+.pricing_footer {
+  margin: 0 0 0 0;
+  padding: 10px 0 10px 0;
+  background-color: #efefef;
+  font-size: $base-font-size;
+  font-weight: 100;
+  background-size: 4px;
+  background-repeat: repeat-x repeat-y;
+
+}
+
+
+// bootstrap
+.btn {
+  display: inline-block;
+  *display: inline;
+  padding: 4px 10px 4px;
+  margin-bottom: 0;
+  *margin-left: .3em;
+  font-size: 13px;
+  line-height: 18px;
+  *line-height: 20px;
+  color: #ffffff;
+  text-align: center;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+  vertical-align: middle;
+  cursor: pointer;
+  background-color: #f5f5f5;
+  *background-color: #e6e6e6;
+  background-image: -ms-linear-gradient(top, #ffffff, #e6e6e6);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e6e6e6));
+  background-image: -webkit-linear-gradient(top, #ffffff, #e6e6e6);
+  background-image: -o-linear-gradient(top, #ffffff, #e6e6e6);
+  background-image: linear-gradient(top, #ffffff, #e6e6e6);
+  background-image: -moz-linear-gradient(top, #ffffff, #e6e6e6);
+  background-repeat: repeat-x;
+  border: 1px solid #cccccc;
+  *border: 0;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+  border-bottom-color: #b3b3b3;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ffffff', endColorstr='#e6e6e6', GradientType=0);
+  filter: progid:dximagetransform.microsoft.gradient(enabled=false);
+  *zoom: 1;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+     -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+          box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.btn:hover,
+.btn:active,
+.btn.active,
+.btn.disabled,
+.btn[disabled] {
+  background-color: #e6e6e6;
+  *background-color: #d9d9d9;
+}
+
+.btn:active,
+.btn.active {
+  background-color: #cccccc \9;
+}
+
+.btn:first-child {
+  *margin-left: 0;
+}
+
+.btn:hover {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #e6e6e6;
+  *background-color: #d9d9d9;
+  /* Buttons in IE7 don't get borders, so darken on hover */
+
+  background-position: 0 -15px;
+  -webkit-transition: background-position 0.1s linear;
+     -moz-transition: background-position 0.1s linear;
+      -ms-transition: background-position 0.1s linear;
+       -o-transition: background-position 0.1s linear;
+          transition: background-position 0.1s linear;
+}
+
+.btn:focus {
+  outline: thin dotted #333;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+.btn.active,
+.btn:active {
+  background-color: #e6e6e6;
+  background-color: #d9d9d9 \9;
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+     -moz-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+          box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.btn.disabled,
+.btn[disabled] {
+  cursor: default;
+  background-color: #e6e6e6;
+  background-image: none;
+  opacity: 0.65;
+  filter: alpha(opacity=65);
+  -webkit-box-shadow: none;
+     -moz-box-shadow: none;
+          box-shadow: none;
+}
+
+
+.btn-primary {
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+  background-color: #494d52;
+  background-image: -moz-linear-gradient(top, #71767d, #494d52);
+  background-image: -ms-linear-gradient(top, #71767d, #494d52);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#71767d), to(#494d52));
+  background-image: -webkit-linear-gradient(top, #71767d, #494d52);
+  background-image: -o-linear-gradient(top, #71767d, #494d52);
+  background-image: linear-gradient(top, #71767d, #494d52);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#c0d2cd', endColorstr='#ccc', GradientType=0);
+  border-color: #71767d #494d52 #002a80;
+  border: 1px solid #cccccc;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary.active,
+.btn-primary.disabled,
+.btn-primary[disabled] {
+ background-color: #494d52;
 }
