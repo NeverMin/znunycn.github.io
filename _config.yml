@@ -1,3 +1,7 @@
+# This is the default format. 
+# For more see: https://github.com/mojombo/jekyll/wiki/Permalinks
+#permalink
+
 # Deployment
 #host: 0.0.0.0
 #port: 4000
@@ -5,8 +9,9 @@
 # Site settings
 title: OTRS 企业支持服务 - 舜迎(Znuny)信息
 description: >
-  OTRS的名字是由Open-source Ticket Request System首字母缩略字而来，
-  是一个开放式的的项目，提交服务请求，问题管理等功能，集成非常多的功能用来管理用户通过邮件或电话呼叫。
+  OTRS 是一个出色的服务管理系统, 于 2001 年由 Martin Edenhofer 创建,
+  任何人都可以自由地 下载 并尝试它. 如果想快速部署, 或基于公司业务进行定制配置,
+  开发额外的功能, 集成第三方系统等, 请联系我们. 我们还提供系统安全评估, 数据加密服务.
 baseurl: ""
 #url: "https://otrs.cn/"
 github_username: otrscn
@@ -15,6 +20,111 @@ twitter_username: znuny
 # Build settings
 markdown: kramdown
 safe: true
+draft: true
 timezone: China/ShangHai
-lang: zh
 encoding: utf-8
+
+# All Jekyll-Bootstrap specific configurations are namespaced into this hash
+#
+JB :
+  version : 0.3.0
+
+  # All links will be namespaced by BASE_PATH if defined.
+  # Links in your website should always be prefixed with {{BASE_PATH}}
+  # however this value will be dynamically changed depending on your deployment situation.
+  #
+  # CNAME (http://yourcustomdomain.com)
+  #   DO NOT SET BASE_PATH 
+  #   (urls will be prefixed with "/" and work relatively)
+  #
+  # GitHub Pages (http://username.github.io)
+  #   DO NOT SET BASE_PATH 
+  #   (urls will be prefixed with "/" and work relatively)
+  #
+  # GitHub Project Pages (http://username.github.io/project-name)
+  #
+  #   A GitHub Project site exists in the `gh-pages` branch of one of your repositories.
+  #  REQUIRED! Set BASE_PATH to: http://username.github.io/project-name
+  #
+  # CAUTION:
+  #   - When in Localhost, your site will run from root "/" regardless of BASE_PATH
+  #   - Only the following values are falsy: ["", null, false]
+  #   - When setting BASE_PATH it must be a valid url.
+  #     This means always setting the protocol (http|https) or prefixing with "/"
+#  BASE_PATH : false
+
+  # By default, the asset_path is automatically defined relative to BASE_PATH plus the enabled theme.
+  # ex: [BASE_PATH]/assets/themes/[THEME-NAME]
+  #
+  # Override this by defining an absolute path to assets here.
+  # ex: 
+  #   http://s3.amazonaws.com/yoursite/themes/watermelon
+  #   /assets
+  #
+#  ASSET_PATH : false
+#  IMAGE_PATH : false
+
+  # These paths are to the main pages Jekyll-Bootstrap ships with.
+  # Some JB helpers refer to these paths; change them here if needed.
+  #
+#  archive_path: /archive.html
+#  categories_path : /categories.html
+#  tags_path : /tags.html
+#  atom_path : /atom.xml
+#  rss_path : /rss.xml
+#  messages_path : /messages.html
+#  about_path : /about.html
+
+  # Settings for comments helper
+  # Set 'provider' to the comment provider you want to use.
+  # Set 'provider' to false to turn commenting off globally.
+  #
+#  comments :
+#    provider : duoshuo
+#    duoshuo :
+#      short_name : liberize
+#    disqus :
+#      short_name : liberize
+#    livefyre :
+#      site_id : 123
+#    intensedebate :
+#      account : 123abc
+#    facebook :
+#      appid : 123
+#      num_posts: 5
+#      width: 580
+#      colorscheme: light
+
+  # Settings for analytics helper
+  # Set 'provider' to the analytics provider you want to use.
+  # Set 'provider' to false to turn analytics off globally.
+  #        
+#  analytics :
+#    provider : baidu
+#    baidu :
+#      tracking_id : ''
+#    google : 
+#      tracking_id : ''
+#    getclicky :
+#      site_id : 
+#    mixpanel :
+#      token : '_MIXPANEL_TOKEN_'
+
+  # Settings for sharing helper. 
+  # Sharing is for things like tweet, plusone, like, reddit buttons etc.
+  # Set 'provider' to the sharing provider you want to use.
+  # Set 'provider' to false to turn sharing off globally.
+  #
+#  sharing :
+#    provider : direct
+
+  # Settings for all other include helpers can be defined by creating 
+  # a hash with key named for the given helper. ex:
+  #
+  #   pages_list :
+  #     provider : "custom"   
+  #
+  # Setting any helper's provider to 'custom' will bypass the helper code
+  # and include your custom code. Your custom file must be defined at:
+  #   ./_includes/custom/[HELPER]
+  # where [HELPER] is the name of the helper you are overriding.
