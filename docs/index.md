@@ -1,20 +1,20 @@
 ---
 layout: page
-title: Documentation
+title: "文档中心"
 permalink: /docs/
 top_graphic: 1
 ---
 
 # General
 
-* [Client Options](/docs/client-options/)
-* [Staging Environment](/docs/staging-environment/)
-* [Rate Limits](/docs/rate-limits/)
-* [Expiration Emails](/docs/expiration-emails/)
-* [Certificate Compatibility](/docs/certificate-compatibility/)
-* [ACME Protocol Updates](/docs/acme-protocol-updates/)
-* [Frequently Asked Questions (FAQ)](/docs/faq/)
+* [安装 Linux 系统](/docs/)
 
-# Large Scale Providers and Integrators
+* [常见问答](/docs/faq/)
 
-* [Integration Guide](/docs/integration-guide/)
+# 配置文档
+
+* [邮件配置](/docs/email-settings/)
+
+# API/第三方集成 文档
+
+* [Web 服务](/docs/#/)

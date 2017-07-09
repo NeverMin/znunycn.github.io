@@ -1,10 +1,17 @@
 ---
 layout: page
-title: About
+title: "关于我们"
 permalink: /about/
 top_graphic: 1
 ---
+## OTRS 是什么
 
+OTRS 的全称是 <strong>O</strong>pen-source <strong>T</strong>icket <strong>R</strong>equest <strong>S</strong>ystem，是一个被广泛应用的服务管理系统，于 2001 年由 Martin&nbsp;Edenhofer 创建。OTRS 汇集不同渠道的用客户请求，以服务(Service/SLA)为桥
+梁，使服务人员始终保持和客户的紧密沟通。
+
+- [什么是服务](/docs/faq/#what-is-service-and-SLA)
+
+<br/>
 ## 发展历程
 
 * 2001 - 马丁·埃登霍费尔(Martin Edenhofer) 开始 OTRS.org 项目，最初只是想让顾客与服务人员之间能够更方便地沟通。
@@ -18,14 +25,12 @@ top_graphic: 1
 * 2013 - 非常有幸服务 德国商业银行，德国中央合作银行 和 德国证券服务银行(dwpbank)等。
 * 2014 - 成立 Znuny 瑞士有限公司，致力于为瑞士客户提供专业的 OTRS 服务。
 
+<br/>
 ## 领导层
 
 ### 马丁·埃登霍费尔 / Martin Edenhofer
 
 马丁·埃登霍费尔 / Martin Edenhofer 是德国开源软件的开创者并且是 Linux 的先驱之一。他也是 OTRS.org 的项目创始人，为开发 OTRS 系统作出了巨大贡献。随后几年，埃登霍费尔 先生作为一位 STTS(属于 SuSE 的故障回报系统) 的开发者在 SuSE Linux AG 工作，2001 年从纽伦堡搬到法兰克福，主要的职责是 Lufthansa Systems 的项目经理。在2003年，他创立了 OTRS 有限责任公司(即后来的 OTRS AG)，并担任首席技术总监。
 
-[XING](https://www.xing.com/profile/Martin_Edenhofer) | 
-[LinkedIn](http://www.linkedin.com/profile/view?id=11139144) | 
-[Blog](http://edenhofer.de/) | 
-[Twitter](http://twitter.com/medenhofer) | 
-[新浪微博](http://weibo.com/znuny)
+[博客](https://martin.org.cn/) | 
+[新浪微博](http://weibo.com/otrs)
