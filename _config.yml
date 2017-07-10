@@ -9,9 +9,9 @@
 # Site settings
 title: OTRS 企业支持服务 - 舜迎(Znuny)信息
 description: >
-  OTRS 是一个出色的服务管理系统, 于 2001 年由 Martin Edenhofer 创建,
-  任何人都可以自由地 下载 并尝试它. 如果想快速部署, 或基于公司业务进行定制配置,
-  开发额外的功能, 集成第三方系统等, 请联系我们. 我们还提供系统安全评估, 数据加密服务.
+  OTRS 的全称是 Open-source Ticket Request System，是一个被广泛应用的服务管理系统，
+  于 2001 年由 Martin Edenhofer 创建。OTRS 汇集不同渠道的用客户请求，
+  以服务(Service/SLA)为桥 梁，使服务人员始终保持和客户的紧密沟通。
 baseurl: ""
 #url: "https://otrs.cn/"
 github_username: otrscn
