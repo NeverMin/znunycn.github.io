@@ -3,12 +3,12 @@ layout: post
 zsaid: "ZSA-2017-01"
 cve: "2017-9324"
 level: "高危"
-title: "Administrative privileges for agents by accessing the installer"
+title: "非管理员可以访问安装向导取得完全的管理员权限"
 date: 2017-5-30T00:00
 author: "文浩坚"
 category: "advisory"
 tags: ["advisory"]
-excerpt: Administrative privileges for agents by accessing the installer
+excerpt: "任何服务人员通过在浏览器输入 otrs/index.pl?XXXXXX 取得完全的管理员权限, 可以读出系统的配置, 或更改系统配置."
 ---
 
 ## 问题描述

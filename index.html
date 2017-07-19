@@ -27,7 +27,7 @@ layout: no-wrapper
                     <h2>
                       <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
                     </h2>
-                    {{ post.excerpt }}
+                    <span class="post-meta">{{ post.excerpt }}</span>
                     <!--<p align="right"><a href="{{ post.url | prepend: site.baseurl }}">Read more</a></p>
                   </li>-->
                 {% endfor %}
