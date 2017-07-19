@@ -18,9 +18,9 @@ layout: no-wrapper
       <div class="pure-g home">
         <div class="pure-u-1 pure-u-md-1-2">
           <div class="grid-container">
-            <h2 class="through-line"><a href="/blog/">blog</a></h2>
+            <h2 class="through-line">最近更新<h2>
               <ul class="post-list">
-                {% for post in site.posts limit:3 %}
+                {% for post in site.posts limit:5 %}
                   <li>
                     <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 

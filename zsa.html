@@ -1,0 +1,21 @@
+---
+layout: page
+title: "安全通告"
+permalink: /zsa/
+top_graphic: 2
+---
+
+<div class="post">
+    <ul class="post-list">
+      {% for zsa in site.categories.zsa %}
+        <li>
+          <span class="post-meta">{{ zsa.date | date: "%b %-d, %Y" }}</span>
+          <h2>
+            <a class="post-link" href="{{ zsa.url | prepend: site.baseurl }}">{{ zsa.title }}</a>
+          </h2>
+          {{ post.excerpt }}
+          <p><a href="{{ zsa.url | prepend: site.baseurl }}">阅读...</a></p>
+        </li>
+      {% endfor %}
+    </ul>
+</div>
