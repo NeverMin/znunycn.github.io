@@ -1,0 +1,24 @@
+---
+layout: page
+title: "安全通告"
+permalink: /advisory/
+top_graphic: 2
+---
+
+<div class="post">
+      <table class="table">
+        <tbody><tr><th>#</th><th>Title</th><th>CVE</th><th>Severity</th><th>Date</th></tr>
+          {% for post in site.categories.advisory %}
+            <tr>
+              <td>
+                <a href="{{ post.url | prepend: site.baseurl }}">{{ post.zsaid }}</a>
+              </td>
+              <td>{{ post.title }}</td>
+              <td>{{ post.cve }}</td>
+              <td>{{ post.level }}</td>
+              <td>{{ post.date | date: "%b %-d, %Y" }}</td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+</div>
