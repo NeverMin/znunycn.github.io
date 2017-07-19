@@ -1,6 +1,6 @@
 # This is the default format. 
 # For more see: https://github.com/mojombo/jekyll/wiki/Permalinks
-#permalink
+#permalink: /:title/
 
 # Deployment
 #host: 0.0.0.0
