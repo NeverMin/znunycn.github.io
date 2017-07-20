@@ -1,0 +1,16 @@
+---
+layout: post
+title: "FAQ"
+date: 2017-6-30T00:00
+author: "文浩坚"
+category: "addons"
+excerpt: "OTRS 知识库"
+---
+
+## OTRS 原生知识库 FAQ
+
+OTRS 知识库
+
+## 版本 及 下载地址
+- [适用 OTRS v5.0](https://otrs.cn/faq.opm)
+- [适用 OTRS v4.0](https://otrs.cn/faq.opm)

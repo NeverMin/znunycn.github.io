@@ -5,16 +5,36 @@ permalink: /addons/
 top_graphic: 2
 ---
 
+<div class="container">
+    <h1>Znuny Repo</h1>
+    <h2>功能说明</h2>
+    <p>通过内置的包管理器直接安装由 Znuny 提供的附加组件<br/>
+    同样为 Znuny 附加组提供验证功能</p>
+    <h2>安装</h2>
+      
+            <p>下载并保存该软件包。</p>
+            <p>通过<strong>系统管理 -&gt; 软件包管理</strong>打开软件包管理，点击浏览选择 Znuny-Repo-OPM-Package (<a href="https://portal.znuny.com/api/addon_repos/public/309/latest">OTRS 4.x</a>/<a href="http://portal.znuny.com/api/addon_repos/public/615/latest">OTRS 5</a>) 并安装之！</p>
+            <p><img src="/images/package.png"></p>
+            <p>安装之后你可以在下拉菜单里找到新的软件仓库<strong>[-Addons-] Znuny4OTRS - Public</strong>，点击“更新软件仓库信息”即可以访问最新的 Znuny 附加组件。</p>
+    <h2>适用平台</h2>
+    <h2></h2>
+      <p>可连接互联网, OTRS 4 或 OTRS 5</p>
+    <h2>下载</h2>
+    <h2></h2>
+      <p>|<a href="https://portal.znuny.com/api/addon_repos/public/309/latest">适用 OTRS 4 之 Znuny-Repo 安装包</a>|<a href="https://portal.znuny.com/api/addon_repos/public/615/latest">适用 OTRS 5 之 Znuny-Repo 安装包</a>|</p>
+</div>
+<br/><br/><br/><br/><br/>
+<h1>OTRS 插件列表</h1>
+<hr/>
 <div class="post">
     <ul class="post-list">
-      {% for post in site.categories.addon %}
+      {% for post in site.categories.addons %}
         <li>
           <span class="post-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
           <h2>
             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
           </h2>
           {{ post.excerpt }}
-          <p><a href="{{ post.url | prepend: site.baseurl }}">阅读...</a></p>
         </li>
       {% endfor %}
     </ul>
