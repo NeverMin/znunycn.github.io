@@ -16,7 +16,7 @@ top_graphic: 2
               <td>{{ post.title }}</td>
               <td>{{ post.cve }}</td>
               <td>{{ post.level }}</td>
-              <td>{{ post.date | date: "%b %-d, %Y" }}</td>
+              <td>{{ post.date | date: "%Y-%m-%d" }}</td>
             </tr>
           {% endfor %}
         </tbody>
